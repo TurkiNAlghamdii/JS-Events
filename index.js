@@ -61,7 +61,6 @@ teamInputElement.addEventListener("keyup", function (e) {
 
 
 function addTeamRow(team,tbodyElement){
-    console.log(`We will add ${team} to ${tbodyElement}`)
     const row = tbodyElement.insertRow();
     row.insertCell(0).innerText = team;
     
